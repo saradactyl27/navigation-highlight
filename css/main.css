@@ -6,11 +6,12 @@ html {
 }
 
 *, *::before, *::after {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   background-color: #fff;
+  margin: 0.3em;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
 }
 
 .nav {
-  font-family: Georgia ;
+  font-family: Georgia;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -69,6 +70,7 @@ h2 {
 img {
   width: 100%;
   max-width: 25em;
+  display: block;
 }
 
 p {
