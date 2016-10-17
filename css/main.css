@@ -10,7 +10,7 @@ box-sizing: inherit;
 }
 
 body {
-  backgound-color: #fff;
+  background-color: #fff;
 }
 
 h1 {
@@ -47,6 +47,10 @@ h1 {
 }
 
 .nav .current {
+  background-color: #b20953;
+}
+
+.nav a:hover {
   background-color: #b20953;
 }
 
