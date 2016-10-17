@@ -1,0 +1,83 @@
+html {
+  background-color: #fff;
+  font-family: Georgia;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body {
+  backgound-color: #fff;
+}
+
+h1 {
+  color: #cc1465;
+  font-family: "Sigmar One", cursive;
+  text-align: center;
+  padding:0;
+  font-size: 3rem;
+}
+
+.nav {
+  font-family: Georgia ;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav a {
+  color: #fff;
+  background-color: #b2a212;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125rem;
+  margin: .1em;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
+
+section {
+  background-color: #ffe500;
+  margin:0;
+  padding: 0 10px;
+}
+
+h2 {
+  color: #cc1465;
+  font-family: "Sigmar One";
+  font-size: 1.875rem;
+}
+
+img {
+  width: 100%;
+  max-width: 25em;
+}
+
+p {
+  text-align: left;
+  font-size: 1.125rem;
+  font-family: Georgia;
+  color: #2f2d13;
+}
+
+foot {
+  background-color: #ffe500;
+  text-align: center;
+  font-size: 0.75rem;
+  display: block;
+  padding: 10px;
+}
